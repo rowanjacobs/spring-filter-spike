@@ -1,0 +1,11 @@
+# .pairs - configuration for 'git pair'
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+    rj: Rowan Jacobs; rjacobs
+    gf: George Foster; gfoster
+email:
+  prefix: proton.donor.17
+  domain: gmail.com
+  # no_solo_prefix: true
+# global: true
+
