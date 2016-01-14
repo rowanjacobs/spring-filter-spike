@@ -1,8 +1,7 @@
 # .pairs - configuration for 'git pair'
 pairs:
   # <initials>: <Firstname> <Lastname>[; <email-id>]
-    rj: protondonor; protondonor
-    gf: George Foster; gfoster
+    rj: protondonor; github
 email:
   prefix: proton.donor.17
   domain: gmail.com
