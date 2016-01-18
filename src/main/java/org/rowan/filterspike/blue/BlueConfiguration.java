@@ -7,9 +7,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 class BlueConfiguration {
 
-    @Bean
+    @Bean(name = "2")
     public FilterRegistrationBean filterRegistrationBean() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean(new BlueFilter());
+//        filterRegistrationBean.setName("blue");
         filterRegistrationBean.setOrder(2);
         return filterRegistrationBean;
     }
